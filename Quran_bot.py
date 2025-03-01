@@ -44,7 +44,7 @@ SURA_INFO = {
     33: {"name": "Al-Ahzob", "total_verses": 73},
     34: {"name": "Saba", "total_verses": 54},
     35: {"name": "Fotir", "total_verses": 45},
-    36: {"name": "Yosin", "total_verses": 83},
+    36: {"name": "Yasin", "total_verses": 83},
     37: {"name": "As-Soffat", "total_verses": 182},
     38: {"name": "Sod", "total_verses": 88},
     39: {"name": "Az-Zumar", "total_verses": 75},
@@ -130,7 +130,7 @@ SURA_INFO = {
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     user_name = message.from_user.first_name
-    welcome_text = f"""Assalomu alaykum, {user_name}!
+    welcome_text = f"""Salomatlik tilayman, {user_name}!
 
 Qur'oni Karim oyatlarini ko'rish uchun quyidagi formatlardan foydalaning:
 
